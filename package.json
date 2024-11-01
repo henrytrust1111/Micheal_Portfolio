@@ -1,19 +1,21 @@
 {
-  "dependencies": {
-    "tailwindcss": "^3.1.6"
-  },
   "name": "y",
   "version": "1.0.0",
   "description": "My Portfolio",
   "main": "tailwind.config.js",
+  "scripts": {
+    "build": "postcss src/styles.css -o public/styles.css",
+    "start": "serve public"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.1.6"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",
-    "postcss-cli": "^11.0.0"
+    "postcss-cli": "^11.0.0",
+    "serve": "^14.0.1"  
   },
-  "scripts": {
-    "build": "postcss src/styles.css -o public/styles.css"
-  },
-  "author": "Rashedat",
+  "author": "Henry",
   "license": "MIT"
 }
