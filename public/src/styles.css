@@ -609,10 +609,6 @@ video {
   bottom: 50%;
 }
 
-.bottom-\[2rem\] {
-  bottom: 2rem;
-}
-
 .bottom-\[-2rem\] {
   bottom: -2rem;
 }
@@ -645,10 +641,6 @@ video {
   margin-top: 2rem;
 }
 
-.mt-\[2\.3rem\] {
-  margin-top: 2.3rem;
-}
-
 .mt-\[1\.5rem\] {
   margin-top: 1.5rem;
 }
@@ -673,16 +665,12 @@ video {
   margin-bottom: 5rem;
 }
 
-.mb-\[2rem\] {
-  margin-bottom: 2rem;
+.mt-auto {
+  margin-top: auto;
 }
 
 .mt-\[10rem\] {
   margin-top: 10rem;
-}
-
-.mt-auto {
-  margin-top: auto;
 }
 
 .block {
@@ -813,6 +801,10 @@ video {
   flex-direction: column;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .place-items-center {
   place-items: center;
 }
@@ -869,12 +861,12 @@ video {
   gap: 1.5rem;
 }
 
-.gap-10 {
-  gap: 2.5rem;
+.gap-\[5px\] {
+  gap: 5px;
 }
 
-.self-end {
-  align-self: flex-end;
+.gap-\[25px\] {
+  gap: 25px;
 }
 
 .overflow-x-hidden {
@@ -996,8 +988,8 @@ video {
   padding-top: .5rem;
 }
 
-.pb-\[\.1rem\] {
-  padding-bottom: .1rem;
+.pb-\[1rem\] {
+  padding-bottom: 1rem;
 }
 
 .pt-\[1rem\] {
@@ -1048,6 +1040,10 @@ video {
   font-size: 14px;
 }
 
+.text-\[50px\] {
+  font-size: 50px;
+}
+
 .text-\[35px\] {
   font-size: 35px;
 }
@@ -1056,12 +1052,17 @@ video {
   font-size: 25px;
 }
 
+.text-\[18px\] {
+  font-size: 18px;
+}
+
 .text-\[16px\] {
   font-size: 16px;
 }
 
-.text-\[12px\] {
-  font-size: 12px;
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .text-\[13px\] {
@@ -1074,6 +1075,18 @@ video {
 
 .text-\[15px\] {
   font-size: 15px;
+}
+
+.text-\[12px\] {
+  font-size: 12px;
+}
+
+.text-\[70px\] {
+  font-size: 70px;
+}
+
+.text-\[75px\] {
+  font-size: 75px;
 }
 
 .font-\[700\] {
@@ -1096,16 +1109,16 @@ video {
   font-weight: 200;
 }
 
+.font-\[500\] {
+  font-weight: 500;
+}
+
 .capitalize {
   text-transform: capitalize;
 }
 
 .leading-\[28px\] {
   line-height: 28px;
-}
-
-.leading-\[35px\] {
-  line-height: 35px;
 }
 
 .leading-\[25px\] {
@@ -1513,10 +1526,6 @@ svg:hover {
     margin-top: 4rem;
   }
 
-  .md\:h-auto {
-    height: auto;
-  }
-
   .md\:w-\[15\%\] {
     width: 15%;
   }
@@ -1545,12 +1554,8 @@ svg:hover {
     flex-direction: row;
   }
 
-  .md\:text-\[75px\] {
-    font-size: 75px;
-  }
-
-  .md\:text-\[1\.2rem\] {
-    font-size: 1.2rem;
+  .md\:gap-\[20px\] {
+    gap: 20px;
   }
 
   .md\:text-\[35px\] {
@@ -1565,8 +1570,16 @@ svg:hover {
     font-size: 18px;
   }
 
-  .md\:leading-\[35px\] {
-    line-height: 35px;
+  .md\:text-\[40px\] {
+    font-size: 40px;
+  }
+
+  .md\:text-\[25px\] {
+    font-size: 25px;
+  }
+
+  .md\:font-\[600\] {
+    font-weight: 600;
   }
 
   .md\:leading-\[24px\] {
@@ -1575,10 +1588,6 @@ svg:hover {
 }
 
 @media (min-width: 1024px) {
-  .lg\:absolute {
-    position: absolute;
-  }
-
   .lg\:-ml-\[3rem\] {
     margin-left: -3rem;
   }
@@ -1673,24 +1682,17 @@ svg:hover {
     text-align: end;
   }
 
-  .lg\:text-\[1\.5rem\] {
-    font-size: 1.5rem;
-  }
-
-  .lg\:text-\[50px\] {
-    font-size: 50px;
-  }
-
   .lg\:text-\[35px\] {
     font-size: 35px;
   }
 
-  .lg\:text-\[15px\] {
-    font-size: 15px;
+  .lg\:text-\[1\.5rem\] {
+    font-size: 1.5rem;
   }
 
-  .lg\:text-\[17px\] {
-    font-size: 17px;
+  .lg\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 
   .lg\:text-\[25px\] {
